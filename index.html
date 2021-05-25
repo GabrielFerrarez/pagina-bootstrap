@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/index.css">
+    
+    <title>Pagina bootstrap</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#" style="display: flex; align-items: center;">
+                <img src="img/logo.png" width="50px">
+                <h2 style="margin-left: 10px; color: #564a69;">Ferrarez</h2>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#quem-sou">quem sou</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#minhas-realizacoes">Minhas realizações</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tecnos">tecnoligias</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">serviços</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <section id="infos">
+
+        <div id="quem-sou" class="texto">
+
+            <h3>Quem sou</h3>
+
+            <div class="container-text">
+
+                <img id="perfil-img" class="rounded-circle" src="img/foto-perfil.jpg" width="200px">
+    
+                <p>
+                    Me chamo Gabriel Ferrarez Lima tenho 17 anos
+                    e estudo a área de informática a 4 anos. <br>
+                    Estou atualmente cursando o ensino médio técnico
+                    em redes de computadores busco no momento minha 
+                    certificação cisco CCNA.
+                    Além disso tenho conhecimento na area de desenvolvimento WEB.
+                </p>
+
+            </div>
+            
+
+        </div>
+
+        <div id="minhas-realizacoes" class="texto">
+
+            <h3>Minhas realizações</h3>
+
+            <div class="container-text">
+
+                <p>
+
+                    Em 2021 desenvolvi um site em PHP com algumas funções JavaScript 
+                    ultilizando a versão 5 do HTML e estou aprendendo bootstrap neste momento.
+                    <br>
+                    Além disso criei um servidor de arquivos linux na minha rede local com acesso remoto via SSH
+                    para compartilhar arquivos entre meus dispositivos pessoais.
+                    E nas horas vagas busco fazer manutenção de computadores.
+
+                </p>
+
+            </div>
+
+        </div>
+    
+    </section>
+
+    <section id="tecnos">
+
+        <div class="container-fluid text-center texto">
+
+            <h3>Tecnologias</h3>
+
+            <div id="container-img-desc" class="container">
+
+                <div class="row">
+
+                    <div class="col-lg-4">
+                        <img class="img-tecno" src="img/logo-html5.png">
+                    </div>
+
+                    <div class="col-lg-4">
+                        <img class="img-tecno" src="img/logo-css3.png">
+                    </div>
+
+                    <div class="col-lg-4">
+                        <img class="img-tecno" src="img/logo-js.png">
+                    </div>
+
+                </div>
+            
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="service">
+        <div class="container-fluid text-center texto">
+            <h3>Serviços</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>manutenção de mais de 100<br> computadores por mês alta demanda de serviço</p>
+                        <img src="img/main-pc.jpg" height="350px">
+                    </div>
+                    <div class="col-lg-6">
+                        <p>Os melhores sites do mercado<br> com responsividade e design inovador</p>
+                        <img src="img/dev-web.jpg" height="350px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid text-center developer">
+
+        <p>Desenvolvido por Gabriel Ferrarez Lima</p>
+
+    </footer>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>
