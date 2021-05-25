@@ -97,6 +97,9 @@ section#service {
     padding: 30px;
 }
 
+section#service .row img {
+    border-radius: 10px;
+}
 
 
 
